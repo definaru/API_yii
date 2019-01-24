@@ -6,9 +6,11 @@
 
 This method allows you to get an array of data from a MySQL database. Opportunities:
 
-  - Get the header in the **JSON** file
-  - Get the header in the **XML** file
-  - Get the header in the **YML** file for Yandex.Market
+:white_check_mark:  - Get the header in the **JSON** file
+
+:white_check_mark:  - Get the header in the **XML** file
+
+:white_check_mark:  - Get the header in the **YML** file for Yandex.Market
 
 # What does this give?
 
@@ -44,7 +46,7 @@ $ node app
 ```
 ![Usage example](https://definaru.github.io/assets/images/api.png)
 
-License: [GNU General Public License v3.0](https://github.com/DefinaCorporation/Defina/blob/master/LICENSE)
+:clipboard: License: [GNU General Public License v3.0](https://github.com/DefinaCorporation/Defina/blob/master/LICENSE)
 
 
 **Free software, for your reference!**
