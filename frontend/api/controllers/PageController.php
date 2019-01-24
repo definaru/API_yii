@@ -4,19 +4,26 @@ namespace frontend\api\controllers;
 
 use yii\web\Controller;
 use app\models\Catalog;
+use app\models\Api;
 
 
 class PageController extends Controller
 {
+  
+    public function actionError()
+    {
+        Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+        return Api::errors();
+    }
     
-    
-    public function actionIndex($id = '') 
-    { 
-        $json = Catalog::find()->asArray()->where(['id' => $id])->one();
-        //\Yii::$app->response->format = Response::FORMAT_JSON;
-        $items = json_encode($json);
-        return $this->render('index', ['items' => $items, 'id' => $id]);
-    } 
+    public function actionOne($id = '', $apiKey = '')
+    {
+        $model = Index::find()->asArray()->orderBy(['id' => SORT_ASC]);
+        $json = ($id == '' || $id == 0) ? $model->all() : $model->where(['id' => $id])->one();
+        $x = (Api::errorApi($apiKey) == 0) ? Api::noApi() : $json;
+        Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+        return ($json == '') ? Api::errors() : $x;        
+    }
     
     
 }
