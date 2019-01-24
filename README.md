@@ -1,3 +1,5 @@
+![API Yii2](https://definaru.github.io/assets/images/cloud-API.jpg)
+
 # API Yii2
 
 [![Inc. Defina](https://definaru.github.io/assets/images/button11.png)](https://defina.ru)
@@ -18,14 +20,20 @@ This method allows you to get an array of data from a MySQL database. Opportunit
 
 ### Data structure: 
 
-    project/
-    :pencil: text.md
-    subpro/
-       subtext.md
-       subsubpro/
-           subsubtext.md
-       subsubpro2/
-           subsubtext2.md
+    API_Yii/
+        frontend/
+            api/
+                controllers/
+                    PageController.php
+                views/
+                    page/
+                        index.php
+            Link.php
+            views/
+                layouts/
+                    api.php
+    LICENSE
+    README.md
 
 ## Usage example:
 
@@ -34,7 +42,7 @@ $ cd dillinger
 $ npm install -d
 $ node app
 ```
-
+![Usage example](https://definaru.github.io/assets/images/api.png)
 
 License: [GNU General Public License v3.0](https://github.com/DefinaCorporation/Defina/blob/master/LICENSE)
 
