@@ -1,5 +1,3 @@
-![API Yii2](https://definaru.github.io/assets/images/cloud-API.jpg)
-
 # API Yii2
 
 [![Inc. Defina](https://definaru.github.io/assets/images/button11.png)](https://defina.ru)
