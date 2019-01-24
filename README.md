@@ -16,22 +16,24 @@ This method allows you to get an array of data from a MySQL database. Opportunit
   - Conveniently manage data using our **_CMS Defina_**
 
 
-### Data structure: 
+### Data structure:  :pencil:
 
-    API_Yii/
-        frontend/
-            api/
-                controllers/
-                    PageController.php
-                views/
-                    page/
-                        index.php
-            Link.php
-            views/
-                layouts/
-                    api.php
-    LICENSE
-    README.md
+```
+*    API_Yii/
+*        frontend/
+*            api/
+*                controllers/
+*                    PageController.php
+*                views/
+*                    page/
+*                        index.php
+*            Link.php
+*            views/
+*                layouts/
+*                    api.php
+*    LICENSE
+*    README.md
+```
 
 ## Usage example:
 
