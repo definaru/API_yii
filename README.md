@@ -44,6 +44,7 @@ $ cd dillinger
 $ npm install -d
 $ node app
 ```
+
 ![Usage example](https://definaru.github.io/assets/images/api.png)
 
 :clipboard: License: [GNU General Public License v3.0](https://github.com/DefinaCorporation/Defina/blob/master/LICENSE)
